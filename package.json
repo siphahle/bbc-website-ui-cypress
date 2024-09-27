@@ -1,5 +1,19 @@
 {
+  "name": "bbc-ui-test-automation-assessment",
+  "version": "1.0.0",
+  "description": "Cypress UI Automation Assessment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "recordDashboardTest": "npx cypress run --record --key 534aedb7-af3b-469a-bb69-b13364902888"
+  },
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
-    "cypress": "^13.15.0"
+    "cypress": "^13.13.0",
+    "cypress-mochawesome-reporter": "^3.8.2"
+  },
+  "dependencies": {
+    "bbc-ui-test-automation-assessment": "file:"
   }
 }
